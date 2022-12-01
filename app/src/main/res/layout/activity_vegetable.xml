@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Vegetable">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/ib"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tomato"
+            android:onClick="btntomato"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="25dp"
+            android:text="tomato"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:onClick="btntomato"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="105dp"
+            android:background="@drawable/spinach"
+            android:contentDescription="TODO"
+            android:onClick="btnspinach"
+            android:rotation="0"
+            android:rotationY="0" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="130dp"
+            android:gravity="center"
+            android:text="spinach"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib3"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/fenugreek"
+            android:contentDescription="TODO"
+            android:onClick="btnfenugreek"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="235dp"
+            android:gravity="center"
+            android:text="fenugreek"
+            android:onClick="btnfenugreek"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib4"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="315dp"
+            android:background="@drawable/chilli"
+            android:onClick="btnchilli"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="340dp"
+            android:gravity="center"
+            android:text="CHILLI"
+            android:onClick="btnchilli"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib5"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/carrot"
+            android:onClick="btncarrot"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="445dp"
+            android:gravity="center"
+            android:text="CARROT"
+            android:onClick="btncarrot"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib6"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="525dp"
+            android:background="@drawable/ladyfinger"
+            android:onClick="btnladyfinger"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="550dp"
+            android:gravity="center"
+            android:text="LADYFINGER"
+            android:onClick="btnladyfinger"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib7"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="630dp"
+            android:background="@drawable/potato"
+            android:onClick="btnpotato"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="655dp"
+            android:gravity="center"
+            android:text="POTATO"
+            android:onClick="btnpotato"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib8"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="735dp"
+            android:onClick="btnonion"
+            android:background="@drawable/onion" />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="-3dp"
+            android:layout_marginRight="-3dp"
+            android:layout_marginTop="760dp"
+            android:gravity="center"
+            android:text="ONION"
+            android:onClick="btnonion"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

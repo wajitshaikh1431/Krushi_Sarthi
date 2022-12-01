@@ -45,8 +45,16 @@ public class home_activity extends AppCompatActivity {
     }
 
 
-    public void btnplantinfo(View view) {
-        Intent b = new Intent(this, plantsinfo_activity.class);
+    public void btnhelp(View view) {
+        Intent b = new Intent(this, helpcenter_activity.class);
         startActivity(b);
     }
-}
+
+    public void btnplantinfo(View view) {
+        Intent b = new Intent(this, plants_activity.class);
+        startActivity(b);
+    }
+
+
+    }
+

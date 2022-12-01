@@ -11,10 +11,11 @@
         android:layout_width="match_parent"
         android:layout_height="220dp"
         android:background="@drawable/topgb"
+        android:contentDescription="@string/topbg"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/topbg">
+        app:layout_constraintTop_toTopOf="parent">
 
     </ImageView>
 
@@ -27,6 +28,7 @@
         android:layout_marginTop="4dp"
         android:onClick="btnprof"
         android:text="@string/profile1"
+        app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
@@ -61,8 +63,10 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginTop="172dp"
-        app:cardBackgroundColor="#575958"
+        android:background="#335022"
+        app:cardBackgroundColor="#335022"
         app:cardCornerRadius="30dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -84,7 +88,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        app:cardBackgroundColor="#575958"
+        app:cardBackgroundColor="#335022"
         app:cardCornerRadius="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView3">
@@ -106,10 +110,12 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginTop="24dp"
-        app:cardBackgroundColor="#575958"
+        android:background="#335022"
+        app:cardBackgroundColor="#335022"
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        android:onClick="btnhelp">
 
         <ImageView
             android:layout_width="115dp"
@@ -132,7 +138,8 @@
         android:layout_marginLeft="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        app:cardBackgroundColor="#575958"
+        android:background="#335022"
+        app:cardBackgroundColor="#335022"
         app:cardCornerRadius="30dp"
         app:layout_constraintBottom_toTopOf="@+id/cardView"
         app:layout_constraintEnd_toStartOf="@+id/cardView2"
@@ -171,7 +178,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:layout_marginTop="24dp"
-        app:cardBackgroundColor="#575958"
+        app:cardBackgroundColor="#335022"
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView7">
@@ -203,9 +210,20 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="#335022"
             app:srcCompat="@drawable/infologo"
             tools:ignore="ImageContrastCheck" />
     </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/KRUSHISARTHI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:text="powered by : KRUSHI SARTHI"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

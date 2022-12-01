@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".soil_activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/ib"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/siltsoil"
+            android:onClick="btnsilt"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="25dp"
+            android:text="SILTSOIL"
+            android:onClick="btnsilt"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="105dp"
+            android:background="@drawable/chalksoil"
+            android:onClick="btnchalk"
+            android:contentDescription="TODO"
+            android:rotation="0"
+            android:rotationY="0" />
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginTop="130dp"
+            android:gravity="center"
+            android:text="CHALKSOIL"
+            android:onClick="btnchalk"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib3"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/lombsoil"
+            android:onClick="btnloam"
+            android:contentDescription="TODO"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="192dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="235dp"
+            android:gravity="center"
+            android:text="LOMBSOIL"
+            android:onClick="btnloam"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib4"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="315dp"
+            android:background="@drawable/peatsoil"
+            android:onClick="btnpeat"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="340dp"
+            android:gravity="center"
+            android:text="PEATSOIL"
+            android:onClick="btnpeat"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib5"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/sandsoil"
+            android:onClick="btnsand"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="445dp"
+            android:gravity="center"
+            android:text="SANDSOIL"
+            android:onClick="btnsand"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib6"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="525dp"
+            android:background="@drawable/claysoil"
+            android:onClick="btnclay"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="550dp"
+            android:gravity="center"
+            android:text="CLAYSOIL"
+            android:onClick="btnclay"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
