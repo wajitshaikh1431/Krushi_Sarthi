@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "176027147177",
+    "project_id": "krushi-sarthi-b7065",
+    "storage_bucket": "krushi-sarthi-b7065.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176027147177:android:dd7c93bcca7e35d76082b8",
+        "android_client_info": {
+          "package_name": "com.example.wajit_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176027147177-l88to043n966rvbl7mhahi2vei4c3hd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOEMJedkiejNn3Erl7ygd0OMl4zzF0Dc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176027147177-l88to043n966rvbl7mhahi2vei4c3hd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176027147177:android:1ba229eb866002f76082b8",
+        "android_client_info": {
+          "package_name": "www.wajit.krushisarthi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176027147177-l88to043n966rvbl7mhahi2vei4c3hd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOEMJedkiejNn3Erl7ygd0OMl4zzF0Dc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176027147177-l88to043n966rvbl7mhahi2vei4c3hd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
