@@ -54,7 +54,10 @@ public class home_activity extends AppCompatActivity {
         Intent b = new Intent(this, plants_activity.class);
         startActivity(b);
     }
-
+    public void btnweather(View view) {
+        Intent b = new Intent(this, weather_activity.class);
+        startActivity(b);
+    }
 
     }
 
