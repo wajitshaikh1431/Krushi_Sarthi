@@ -1,46 +1,20 @@
 package www.wajit.krushisarthi;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import android.Manifest;
-import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.content.pm.PackageManager;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.MediaStore;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.ProgressBar;
-import android.widget.Toast;
 
-import java.io.File;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+public class agricluture_view extends AppCompatActivity {
 
-public class activity_plant_buy extends AppCompatActivity {
-
-    private static final String TAG = activity_plant_buy.class.getSimpleName();
+    private static final String TAG = agricluture_view.class.getSimpleName();
     private final static int FCR = 1;
     private SwipeRefreshLayout swipeRefreshLayout ;
 
@@ -54,7 +28,7 @@ public class activity_plant_buy extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_plant_buy);
+        setContentView(R.layout.activity_agricluture_view);
         swipeRefreshLayout=findViewById(R.id.swipeRefreshLayout);
 
         webView = (WebView) findViewById(R.id.webView);
@@ -78,7 +52,7 @@ public class activity_plant_buy extends AppCompatActivity {
 
 
 
-        webView.setWebViewClient(new HelpClient());
+        webView.setWebViewClient(new agricluture_view.HelpClient());
         webView.setWebChromeClient(new WebChromeClient() {
 
         });
@@ -99,7 +73,7 @@ public class activity_plant_buy extends AppCompatActivity {
         webView.setVerticalScrollBarEnabled(false);
 
 
-        webView.loadUrl(getResources().getString(R.string.webUrl));
+        webView.loadUrl(getResources().getString(R.string.webUrl2));
     }
 
     private class HelpClient extends WebViewClient {
@@ -132,3 +106,4 @@ public class activity_plant_buy extends AppCompatActivity {
 
         }
     }}
+

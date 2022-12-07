@@ -619,7 +619,8 @@ One benefit of grafted trees is they will bear fruit much more quickly than thos
     <string name="send_to">send_to</string>
     <string name="send_email">send_email</string>
     <string name="topbg">topbg</string>
-    <string name="webUrl">https://www.google.com/</string>
+    <string name="webUrl">https://nurserylive.com/</string>
+    <string name="webUrl2">https://nurserylive.com/</string>
 
 
 </resources>

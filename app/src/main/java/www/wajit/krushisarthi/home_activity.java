@@ -62,6 +62,10 @@ public class home_activity extends AppCompatActivity {
         Intent b = new Intent(this, activity_plant_buy.class);
         startActivity(b);
     }
+    public void agreeView(View view) {
+        Intent b = new Intent(this, agricluture_view.class);
+        startActivity(b);
+    }
 
 
     }

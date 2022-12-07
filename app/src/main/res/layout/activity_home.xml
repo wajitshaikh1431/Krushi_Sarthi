@@ -175,6 +175,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
+        android:onClick="agreeView"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginEnd="24dp"
