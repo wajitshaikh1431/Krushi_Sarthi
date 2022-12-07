@@ -105,5 +105,16 @@ public class agricluture_view extends AppCompatActivity {
             webView.loadUrl("file:///android_asset/error.html");
 
         }
-    }}
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (webView.canGoBack()) {
+            webView.goBack();
+        } else {
+            super.onBackPressed();
+        }
+    }
+}
 
