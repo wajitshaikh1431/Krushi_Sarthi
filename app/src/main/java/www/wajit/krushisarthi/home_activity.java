@@ -28,13 +28,6 @@ public class home_activity extends AppCompatActivity {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String username = user.getDisplayName();
 
-        if (username == null || username == "")
-        {
-            UserNameText.setText("Hello User");
-        }else{
-
-            UserNameText.setText(username);
-        }
     }
     public void btnprof(View view) {
         Intent i = new Intent(this, activity_profile.class);
