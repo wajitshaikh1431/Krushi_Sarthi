@@ -3,6 +3,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,6 +21,8 @@ public class home_activity extends AppCompatActivity {
     private Button Btn;
 
     private FirebaseAuth mAuth;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +30,6 @@ public class home_activity extends AppCompatActivity {
         UserNameText = findViewById(R.id.username);
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String username = user.getDisplayName();
-
     }
     public void btnprof(View view) {
         Intent i = new Intent(this, activity_profile.class);
@@ -54,4 +56,14 @@ public class home_activity extends AppCompatActivity {
         Intent b = new Intent(this, activity_fertilizers.class);
         startActivity(b);
     }
+
+
+    public void onBackPressed() {
+        super.onBackPressed();
+        finishAffinity();
     }
+
+}
+
+
+
