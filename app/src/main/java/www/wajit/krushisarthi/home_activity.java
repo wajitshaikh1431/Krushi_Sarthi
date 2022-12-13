@@ -35,19 +35,10 @@ public class home_activity extends AppCompatActivity {
 
             UserNameText.setText(username);
         }
-
     }
-
-
     public void btnprof(View view) {
         Intent i = new Intent(this, activity_profile.class);
         startActivity(i);
-    }
-
-
-    public void btnhelp(View view) {
-        Intent b = new Intent(this, helpcenter_activity.class);
-        startActivity(b);
     }
 
     public void btnplantinfo(View view) {
@@ -66,7 +57,8 @@ public class home_activity extends AppCompatActivity {
         Intent b = new Intent(this, agricluture_view.class);
         startActivity(b);
     }
-
-
+    public void btnfertilizers(View view) {
+        Intent b = new Intent(this, activity_fertilizers.class);
+        startActivity(b);
     }
-
+    }

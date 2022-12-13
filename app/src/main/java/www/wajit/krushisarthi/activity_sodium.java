@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class helpcenter_activity extends AppCompatActivity {
+public class activity_sodium extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_helpcenter);
+        setContentView(R.layout.activity_sodium);
     }
 }
