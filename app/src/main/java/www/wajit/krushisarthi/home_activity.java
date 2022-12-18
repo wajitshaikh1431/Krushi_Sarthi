@@ -63,6 +63,12 @@ public class home_activity extends AppCompatActivity {
         finishAffinity();
     }
 
+
+    public void btncontactus(View view) {
+        Intent b = new Intent(this, contact_us.class);
+        startActivity(b);
+
+    }
 }
 
 
