@@ -66,11 +66,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void reload() { }
 
-
-    public void btncrops(View view) {
-    }
-
-
 }
 
 

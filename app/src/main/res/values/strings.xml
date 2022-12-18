@@ -620,7 +620,9 @@ One benefit of grafted trees is they will bear fruit much more quickly than thos
     <string name="send_email">send_email</string>
     <string name="topbg">topbg</string>
     <string name="webUrl">https://nurserylive.com/</string>
-    <string name="webUrl2">https://nurserylive.com/</string>
+    <string name="webUrl2">https://www.windy.com/19.877/75.339?19.287,75.339,8</string>
+    <string name="webUrl3">https://agriinfra.dac.gov.in/</string>
+    <string name="webUrl4">https://smartindianagriculture.com/</string>
     <string name="fertilizers"> <b>fertilizers</b></string>
     <string name="ammonium">
     <b>  AMMONIUM CLORIDE FERTILIZER</b>

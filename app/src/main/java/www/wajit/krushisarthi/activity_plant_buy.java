@@ -128,7 +128,7 @@ public class activity_plant_buy extends AppCompatActivity {
 
         @Override
         public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
-            webView.loadUrl("file:///android_asset/error.html");
+            webView.loadUrl("YOUR INTERNET CONNECTION IS DISCONNECTED...!");
 
         }
 

@@ -73,7 +73,7 @@ public class agricluture_view extends AppCompatActivity {
         webView.setVerticalScrollBarEnabled(false);
 
 
-        webView.loadUrl(getResources().getString(R.string.webUrl2));
+        webView.loadUrl(getResources().getString(R.string.webUrl3));
     }
 
     private class HelpClient extends WebViewClient {
